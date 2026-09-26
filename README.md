@@ -1,6 +1,10 @@
-    # MVP: Pipeline de Dados na Nuvem — Fatores de Resultado no Campeonato Brasileiro
+# MVP: Pipeline de Dados na Nuvem — Fatores de Resultado no Campeonato Brasileiro
 
-> Trabalho individual da disciplina de MVP (PUC-Rio). Pipeline construído no Databricks Free Edition.
+**Autor:** Taffarel Firmino de Paula
+**Curso:** Pós-graduação em Ciência de Dados e Analytics — PUC-Rio
+**Disciplina:** MVP — Engenharia de Dados
+**Plataforma:** Databricks Free Edition
+**Fonte:** Kaggle — Campeonato Brasileiro de Futebol
 
 ---
 
@@ -156,3 +160,4 @@ Investigaria o schema real de todas as tabelas (via `printSchema()` e um `descri
 
 **6. Quais seriam os próximos passos para evoluir esse MVP?**
 Aprofundar a análise de posse de bola cruzando com outras métricas da tabela `estatisticas` (chutes no alvo, escanteios, precisão de passe) para entender melhor por que posse sozinha não prediz vitória; trazer temporadas mais recentes do campeonato para validar se a tendência de queda nos gols por partida se mantém; e transformar as tabelas Gold em um dashboard (por exemplo, no próprio Databricks ou em uma ferramenta de BI) para consulta interativa dos resultados.
+
